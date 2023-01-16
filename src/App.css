@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.break-session {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.start-reset {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+span {
+  margin: 0 0.3em;
+}
+
+button {
+  background-color: #242424;
+  color: #fff;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button {
+  padding-bottom: 0.3em;
+  width: 1.5em;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #242424;
+}
+
+.start-reset button {
+  width: 4.7em;
+  height: 1.7em;
+}
+
+.session-main {
+  margin-top: 2em;
+}
+
+#time-left {
+  font-size: 2rem;
+  margin-top: 0;
+}
